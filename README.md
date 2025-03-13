@@ -1,4 +1,14 @@
-# Segment-Firebase
+# Segment-Firebase - Speak iOS Integration
+
+## Speak iOS Custom Implementation
+### 🔧 Adaptation Changes
+- **Swift Package Manager Support**: This package has been adapted to support SPM for integration with the Speak iOS application.
+- **Package Structure**: 
+  - Dependencies:
+    - Custom analytics-ios package (as product "Segment") located at `https://github.com/usespeakeasy/analytics-ios`
+    - Firebase iOS SDK with FirebaseAnalytics product
+
+## Original Library Information
 
 [![CircleCI](https://circleci.com/gh/segment-integrations/analytics-ios-integration-firebase.svg?style=svg)](https://circleci.com/gh/segment-integrations/analytics-ios-integration-firebase)
 [![Version](https://img.shields.io/cocoapods/v/Segment-Firebase.svg?style=flat)](http://cocoapods.org/pods/Segment-Firebase)
